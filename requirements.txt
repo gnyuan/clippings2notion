@@ -1,0 +1,4 @@
+click>=8.0.0
+notional>=0.4.1
+pathlib
+requests>=2.25.0
