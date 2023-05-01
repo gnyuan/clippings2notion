@@ -72,4 +72,4 @@ def update_notion_db_info():
             print("✓ Updated book cover.")
 
 
-update_notion_db_info()
+# update_notion_db_info()

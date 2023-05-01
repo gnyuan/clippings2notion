@@ -66,8 +66,9 @@ def main(
 
 
 if __name__ == "__main__":
-    test_clippings_file_path = (
-        Path(__file__).parent.absolute() / "../tests/test_data/My Clippings.txt"
-    )
+    # test_clippings_file_path = (
+    #     Path(__file__).parent.absolute() / "../tests/test_data/My Clippings.txt"
+    # )
+    test_clippings_file_path = "/mnt/d/tmp/My Clippings.txt"
     main('', '', test_clippings_file_path, True)
     # update_notion_db_info('','')
