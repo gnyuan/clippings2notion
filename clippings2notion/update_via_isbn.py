@@ -68,8 +68,9 @@ def update_notion_db_info():
         if isbn:
             info = get_book_info_via_isbn(str(isbn))
             print(info)
-            notion.pages.set(page, cover=info['cover'])
-            print("✓ Updated book cover.")
+            if info:
+                notion.pages.set(page, cover=info['cover'])
+                print("✓ Updated book cover.")
 
 
 # update_notion_db_info()
